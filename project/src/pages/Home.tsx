@@ -36,7 +36,7 @@ const Home = () => {
               onClick={() => handleItemClick({
                 name: "Costume Italien Sur Mesure",
                 price: "À partir de 899€",
-                image: "https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80"
+                image: "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man…021_SS_tamano_0026__0000s_0018_278A8623-3_sw.webp"
               }, 'suit')}
             >
               <div className="aspect-w-3 aspect-h-4 overflow-hidden rounded-lg">

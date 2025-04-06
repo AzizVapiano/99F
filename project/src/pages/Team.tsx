@@ -3,25 +3,25 @@ import React from 'react';
 const Team = () => {
   const team = [
     {
-      name: "Pierre Dubois",
+      name: "Nino.T",
       role: "Maître Tailleur",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80",
+      image: "https://cdn.discordapp.com/attachments/1288052046276333571/1358539445942358178/IMG_1114.jpg?ex=67f435f4&is=67f2e474&hm=af2276d944118b3cd9e320912d23641769fabb2a973cd29ce4439b05a67de5d6&",
       description: "Plus de 20 ans d'expérience dans la confection de costumes sur mesure."
     },
     {
-      name: "Marie Laurent",
+      name: "Paul Adrien.D",
       role: "Styliste",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80",
-      description: "Experte en tendances et conseils personnalisés pour nos clients."
+      image: "https://cdn.discordapp.com/attachments/1288052046276333571/1358540177886150666/IMG_1605.jpg?ex=67f436a2&is=67f2e522&hm=950128d46cc948da6b9a81de0b0b73fc8362c2aa65044e29de2feb3279791c1b&",
+      description: "Expert en tendances et conseils personnalisés pour nos clients."
     },
     {
-      name: "Jean Martin",
+      name: "Hugo.L",
       role: "Artisan Bottier",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80",
+      image: "https://cdn.discordapp.com/attachments/1288052046276333571/1358540178259706036/IMG_1604.jpg?ex=67f436a2&is=67f2e522&hm=8346db39fc581a0e20f926f8f9b37c2c643bb213919803bd04d571f48e65193c&",
       description: "Spécialiste du travail du cuir et de la fabrication de chaussures sur mesure."
     },
     {
-      name: "Sophie Bernard",
+      name: "Antoine.C",
       role: "Responsable Client",
       image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80",
       description: "Votre interlocutrice privilégiée pour un service personnalisé."

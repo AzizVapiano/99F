@@ -583,19 +583,19 @@ const Shoes = () => {
   
   const shoes = [
     {
-      name: "Oxford Classic Noir",
-      price: "299€",
-      image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80"
+      name: "Richelieu fusain Marron",
+      price: "895€",
+      image: "https://eu.jmweston.com/cdn/shop/files/11U7FRX3651CF_1800x1800_crop_center.png?v=1727784993"
     },
-    {
+    {git 
       name: "Derby Marron",
-      price: "279€",
-      image: "https://images.unsplash.com/photo-1478186014527-87b7f4fe0930?auto=format&fit=crop&q=80"
+      price: "795€",
+      image: "https://eu.jmweston.com/cdn/shop/products/11311826412AF_1800x1800_crop_center.png?v=1652778413"
     },
     {
-      name: "Mocassin Cuir",
-      price: "259€",
-      image: "https://images.unsplash.com/photo-1614252234498-f39e8837c077?auto=format&fit=crop&q=80"
+      name: "Mocassin Noir",
+      price: "695€",
+      image: "https://eu.jmweston.com/cdn/shop/products/11411011801FF_2000x2000_crop_center@2x.png?v=1629153927"
     }
   ];
 
@@ -647,11 +647,6 @@ const Suits = () => {
       name: "Costume Bleu Marine",
       price: "À partir de 799€",
       image: "https://samsonsurmesure.fr/wp-content/uploads/2024/02/samson-sur-mesure-ete-2019-6-Costume-3-pieces-bleu-Gordon-2-1.jpg"
-    },
-    {
-      name: "Smoking Noir",
-      price: "À partir de 999€",
-      image: "https://www.rives-paris.com/wp-content/uploads/2023/10/collection-720-1-720x1024.jpg"
     },
     {
       name: "Smoking Noir",
