@@ -11,7 +11,7 @@ const Team = () => {
     {
       name: "Paul Adrien.D",
       role: "Styliste",
-      image: "https://cdn.discordapp.com/attachments/1288052046276333571/1358540177886150666/IMG_1605.jpg?ex=67f436a2&is=67f2e522&hm=950128d46cc948da6b9a81de0b0b73fc8362c2aa65044e29de2feb3279791c1b&",
+      image: "https://i.imgur.com/w5VNTlA.jpeg",
       description: "Expert en tendances et conseils personnalisés pour nos clients."
     },
     {
@@ -23,7 +23,7 @@ const Team = () => {
     {
       name: "Antoine.C",
       role: "Responsable Client",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80",
+      image: "https://cdn.discordapp.com/attachments/1328685566660968459/1358712384214274161/IMG_3406.png?ex=67f4d704&is=67f38584&hm=ac0e8e52cb8f91c0112fcb8c33d37d057a3c8b677366fdef1549f1d632af7c80&",
       description: "Votre interlocutrice privilégiée pour un service personnalisé."
     }
   ];
@@ -39,11 +39,11 @@ const Team = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {team.map((member, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="aspect-w-1 aspect-h-1">
+              <div className="relative w-full h-[400px]">
                 <img 
                   src={member.image} 
                   alt={member.name}
-                  className="object-cover object-center w-full h-full"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
                 />
               </div>
               <div className="p-6">

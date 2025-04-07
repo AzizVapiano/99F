@@ -9,22 +9,22 @@ const fabricOptions = {
       { 
         name: "Noir", 
         overlay: "bg-black",
-        image: "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man_suit2/215653/2021_SS_tamano_0026__0000s_0018_278A8623-3_sw.webp"
+        image: "https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80"
       },
       { 
         name: "Bleu Marine", 
         overlay: "bg-blue-900",
-        image: "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man_suit2/10627/1.png"
+        image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80"
       },
       { 
         name: "Gris Anthracite", 
         overlay: "bg-gray-700",
-        image: "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man_suit2/123851/1627-1-siciliangreyII_sw.webp"
+        image: "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&q=80"
       },
       { 
         name: "Bleu Royal", 
         overlay: "bg-blue-600",
-        image: "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man_suit2/9917/resized-8.webp"
+        image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80"
       }
     ]
   },
@@ -208,11 +208,11 @@ Prix estimé : ${totalPrice}€
   const selectedColor = options[customization.material].colors.find(c => c.name === customization.color);
 
   const renderPreview = () => (
-    <div className="relative aspect-w-3 aspect-h-4 rounded-lg overflow-hidden mb-6">
+    <div className="relative w-full h-[400px] rounded-lg overflow-hidden mb-6">
       <img 
         src={selectedColor.image}
         alt={item.name}
-        className="object-cover w-full h-full"
+        className="absolute inset-0 w-full h-full object-cover object-center"
       />
       <div className="absolute inset-0 bg-black bg-opacity-20"></div>
       <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent">
@@ -550,11 +550,11 @@ const CollectionsHome = () => (
     <h1 className="text-4xl font-serif text-center mb-12">Nos Collections</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
       <Link to="/collections/shoes" className="relative group">
-        <div className="aspect-w-16 aspect-h-9 overflow-hidden rounded-lg">
+        <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
           <img 
             src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80" 
             alt="Chaussures"
-            className="object-cover object-center group-hover:opacity-75 transition-opacity"
+            className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75 transition-opacity"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <h2 className="text-3xl text-white font-serif">Chaussures</h2>
@@ -562,11 +562,11 @@ const CollectionsHome = () => (
         </div>
       </Link>
       <Link to="/collections/suits" className="relative group">
-        <div className="aspect-w-16 aspect-h-9 overflow-hidden rounded-lg">
+        <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
           <img 
             src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80" 
             alt="Costumes"
-            className="object-cover object-center group-hover:opacity-75 transition-opacity"
+            className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75 transition-opacity"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <h2 className="text-3xl text-white font-serif">Costumes</h2>
@@ -583,19 +583,19 @@ const Shoes = () => {
   
   const shoes = [
     {
-      name: "Richelieu fusain Marron",
-      price: "895€",
-      image: "https://eu.jmweston.com/cdn/shop/files/11U7FRX3651CF_1800x1800_crop_center.png?v=1727784993"
-    },
-    {git 
-      name: "Derby Marron",
-      price: "795€",
-      image: "https://eu.jmweston.com/cdn/shop/products/11311826412AF_1800x1800_crop_center.png?v=1652778413"
+      name: "Oxford Classic Noir",
+      price: "299€",
+      image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80"
     },
     {
-      name: "Mocassin Noir",
-      price: "695€",
-      image: "https://eu.jmweston.com/cdn/shop/products/11411011801FF_2000x2000_crop_center@2x.png?v=1629153927"
+      name: "Derby Marron",
+      price: "279€",
+      image: "https://images.unsplash.com/photo-1478186014527-87b7f4fe0930?auto=format&fit=crop&q=80"
+    },
+    {
+      name: "Mocassin Cuir",
+      price: "259€",
+      image: "https://images.unsplash.com/photo-1614252234498-f39e8837c077?auto=format&fit=crop&q=80"
     }
   ];
 
@@ -605,11 +605,11 @@ const Shoes = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {shoes.map((shoe, index) => (
           <div key={index} className="group cursor-pointer" onClick={() => setSelectedShoe(shoe)}>
-            <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg">
+            <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
               <img 
                 src={shoe.image} 
                 alt={shoe.name}
-                className="object-cover object-center group-hover:opacity-75"
+                className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75"
               />
             </div>
             <h3 className="mt-4 text-lg font-medium">{shoe.name}</h3>
@@ -646,19 +646,13 @@ const Suits = () => {
     {
       name: "Costume Bleu Marine",
       price: "À partir de 799€",
-      image: "https://samsonsurmesure.fr/wp-content/uploads/2024/02/samson-sur-mesure-ete-2019-6-Costume-3-pieces-bleu-Gordon-2-1.jpg"
+      image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80"
     },
     {
       name: "Smoking Noir",
       price: "À partir de 999€",
-      image: "https://www.rives-paris.com/wp-content/uploads/2023/10/collection-720-1-720x1024.jpg"
-    },
-    {
-      name: "Smoking Noir",
-      price: "À partir de 999€",
-      image: "https://cdn-ildbdbn.nitrocdn.com/RxICheOIsRNoqkWXKfNwyBgLIPSzJeht/assets/images/optimized/rev-2f7fb3f/www.rives-paris.com/wp-content/uploads/2023/10/collection-682-1-scaled.jpg"
+      image: "https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80"
     }
-
   ];
 
   return (
@@ -667,11 +661,11 @@ const Suits = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {suits.map((suit, index) => (
           <div key={index} className="group cursor-pointer" onClick={() => setSelectedSuit(suit)}>
-            <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg">
+            <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
               <img 
                 src={suit.image} 
                 alt={suit.name}
-                className="object-cover object-center group-hover:opacity-75"
+                className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75"
               />
             </div>
             <h3 className="mt-4 text-lg font-medium">{suit.name}</h3>

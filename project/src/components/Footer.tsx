@@ -27,17 +27,8 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center"><Phone className="h-4 w-4 mr-2" /> +33 1 23 45 67 89</li>
               <li className="flex items-center"><Mail className="h-4 w-4 mr-2" /> contact@elegance.fr</li>
-              <li className="flex items-center"><MapPin className="h-4 w-4 mr-2" /> 123 Rue de la Mode, Paris</li>
+              <li className="flex items-center"><MapPin className="h-4 w-4 mr-2" /> 40 Boulevard Haussmann 75009 Paris, France </li>
             </ul>
-          </div>
-          
-          <div>
-            <h4 className="text-lg font-medium mb-4">Suivez-nous</h4>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white"><Facebook className="h-6 w-6" /></a>
-              <a href="#" className="text-gray-400 hover:text-white"><Instagram className="h-6 w-6" /></a>
-              <a href="#" className="text-gray-400 hover:text-white"><Twitter className="h-6 w-6" /></a>
-            </div>
           </div>
         </div>
         

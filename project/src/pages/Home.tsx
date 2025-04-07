@@ -36,14 +36,14 @@ const Home = () => {
               onClick={() => handleItemClick({
                 name: "Costume Italien Sur Mesure",
                 price: "À partir de 899€",
-                image: "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man…021_SS_tamano_0026__0000s_0018_278A8623-3_sw.webp"
+                image: "https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80"
               }, 'suit')}
             >
-              <div className="aspect-w-3 aspect-h-4 overflow-hidden rounded-lg">
+              <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
                 <img 
                   src="https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80" 
                   alt="Costume Italien"
-                  className="object-cover object-center group-hover:opacity-75"
+                  className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
               <div className="mt-4">
@@ -69,11 +69,11 @@ const Home = () => {
                 image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80"
               }, 'shoes')}
             >
-              <div className="aspect-w-3 aspect-h-4 overflow-hidden rounded-lg">
+              <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
                 <img 
                   src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80" 
                   alt="Chaussures Oxford"
-                  className="object-cover object-center group-hover:opacity-75"
+                  className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
               <div className="mt-4">
@@ -99,11 +99,11 @@ const Home = () => {
                 image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80"
               }, 'suit')}
             >
-              <div className="aspect-w-3 aspect-h-4 overflow-hidden rounded-lg">
+              <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
                 <img 
                   src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80" 
                   alt="Costume Bleu Marine"
-                  className="object-cover object-center group-hover:opacity-75"
+                  className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
               <div className="mt-4">
