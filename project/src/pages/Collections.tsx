@@ -9,12 +9,12 @@ const fabricOptions = {
       { 
         name: "Noir", 
         overlay: "bg-black",
-        image: "https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80"
+        image: "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man_suit2/215653/2021_SS_tamano_0026__0000s_0018_278A8623-3_sw.webp"
       },
       { 
         name: "Bleu Marine", 
         overlay: "bg-blue-900",
-        image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80"
+        image: "https://d1fufvy4xao6k9.cloudfront.net/feed/img/man_suit2/10627/1.png"
       },
       { 
         name: "Gris Anthracite", 
@@ -583,19 +583,19 @@ const Shoes = () => {
   
   const shoes = [
     {
-      name: "Oxford Classic Noir",
-      price: "299€",
-      image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80"
+      name: "RIchelieu",
+      price: "995€",
+      image: "https://eu.jmweston.com/cdn/shop/files/11U7FRX3651CF_2000x2000_crop_center@2x.png?v=1727784993"
     },
     {
-      name: "Derby Marron",
-      price: "279€",
-      image: "https://images.unsplash.com/photo-1478186014527-87b7f4fe0930?auto=format&fit=crop&q=80"
+      name: "Derby",
+      price: "695€",
+      image: "https://eu.jmweston.com/cdn/shop/products/1131FEW6412AF_2000x2000_crop_center@2x.png?v=1629280572"
     },
     {
-      name: "Mocassin Cuir",
-      price: "259€",
-      image: "https://images.unsplash.com/photo-1614252234498-f39e8837c077?auto=format&fit=crop&q=80"
+      name: "Mocassin",
+      price: "795€",
+      image: "https://eu.jmweston.com/cdn/shop/products/11411011801FF_2000x2000_crop_center@2x.png?v=1629153927"
     }
   ];
 
@@ -641,17 +641,17 @@ const Suits = () => {
     {
       name: "Costume Italien Sur Mesure",
       price: "À partir de 899€",
-      image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80"
+      image: "https://cdn-ikphffh.nitrocdn.com/GWUuScvGYPUNvPxZNmIksnyPPRnupQxe/assets/images/optimized/rev-1107fec/tailortrucks.com/wp-content/uploads/2024/12/csotume-gris-anthracite-moderne-peaky-blinders-645x800.jpg"
     },
     {
       name: "Costume Bleu Marine",
       price: "À partir de 799€",
-      image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80"
+      image: "https://marceletmaurice.fr/38916-large_default/selected-veste-costume-bleu-marine-slim-fit.jpg"
     },
     {
       name: "Smoking Noir",
       price: "À partir de 999€",
-      image: "https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80"
+      image: "https://www.max-martins.fr/wp-content/uploads/2021/04/Smoking-Noir-motifs-stand.jpg"
     }
   ];
 
