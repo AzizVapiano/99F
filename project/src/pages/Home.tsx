@@ -36,12 +36,12 @@ const Home = () => {
               onClick={() => handleItemClick({
                 name: "Costume Italien Sur Mesure",
                 price: "À partir de 899€",
-                image: "https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80"
+                image: "https://cdn-ikphffh.nitrocdn.com/GWUuScvGYPUNvPxZNmIksnyPPRnupQxe/assets/images/optimized/rev-1107fec/tailortrucks.com/wp-content/uploads/2024/12/csotume-gris-anthracite-moderne-peaky-blinders-645x800.jpg"
               }, 'suit')}
             >
               <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1594938374182-a557760e8b32?auto=format&fit=crop&q=80" 
+                  src="https://cdn-ikphffh.nitrocdn.com/GWUuScvGYPUNvPxZNmIksnyPPRnupQxe/assets/images/optimized/rev-1107fec/tailortrucks.com/wp-content/uploads/2024/12/csotume-gris-anthracite-moderne-peaky-blinders-645x800.jpg" 
                   alt="Costume Italien"
                   className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75"
                 />
@@ -64,21 +64,21 @@ const Home = () => {
             <div 
               className="group relative cursor-pointer"
               onClick={() => handleItemClick({
-                name: "Oxford Classic Noir",
-                price: "299€",
-                image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80"
+                name: "Mocassin",
+                price: "795€",
+                image: "https://eu.jmweston.com/cdn/shop/products/11411011801FF_2000x2000_crop_center@2x.png?v=1629153927"
               }, 'shoes')}
             >
               <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80" 
-                  alt="Chaussures Oxford"
+                  src="https://eu.jmweston.com/cdn/shop/products/11411011801FF_2000x2000_crop_center@2x.png?v=1629153927" 
+                  alt="Mocassin"
                   className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
               <div className="mt-4">
-                <h3 className="text-lg font-medium">Oxford Classic Noir</h3>
-                <p className="text-gray-600">299€</p>
+                <h3 className="text-lg font-medium">Mocassin</h3>
+                <p className="text-gray-600">795€</p>
                 <div className="flex items-center mt-1">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
@@ -96,12 +96,12 @@ const Home = () => {
               onClick={() => handleItemClick({
                 name: "Costume Bleu Marine",
                 price: "À partir de 799€",
-                image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80"
+                image: "https://marceletmaurice.fr/38916-large_default/selected-veste-costume-bleu-marine-slim-fit.jpg"
               }, 'suit')}
             >
               <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80" 
+                  src="https://marceletmaurice.fr/38916-large_default/selected-veste-costume-bleu-marine-slim-fit.jpg" 
                   alt="Costume Bleu Marine"
                   className="absolute inset-0 w-full h-full object-cover object-center group-hover:opacity-75"
                 />

@@ -90,17 +90,17 @@ const leatherOptions = {
       {
         name: "Noir",
         overlay: "bg-black",
-        image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80"
+        image: "https://www.cuirnaturel.com/6717/cuir-de-veau-grain-naturel-noir.jpg"
       },
       {
         name: "Marron Foncé",
         overlay: "bg-amber-900",
-        image: "https://images.unsplash.com/photo-1478186014527-87b7f4fe0930?auto=format&fit=crop&q=80"
+        image: "https://www.cuirnaturel.com/6595/cuir-d-agneau-bubble-pull-up-tannage-vegetal-marron-fonce.jpg"
       },
       {
         name: "Bordeaux",
         overlay: "bg-red-900",
-        image: "https://images.unsplash.com/photo-1614252234498-f39e8837c077?auto=format&fit=crop&q=80"
+        image: "https://www.cuirnaturel.com/6636/cuir-de-veau-graine-rouge-bordeaux.jpg"
       }
     ]
   },
@@ -109,40 +109,40 @@ const leatherOptions = {
     price: 100,
     colors: [
       {
-        name: "Noir",
-        overlay: "bg-black",
-        image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80"
+        name: "Bleu",
+        overlay: "bg-blue-800",
+        image: "https://www.cuirnaturel.com/6981/cuir-de-veau-petit-grain-bleu-marine.jpg"
       },
       {
         name: "Cognac",
         overlay: "bg-amber-700",
-        image: "https://images.unsplash.com/photo-1478186014527-87b7f4fe0930?auto=format&fit=crop&q=80"
+        image: "https://www.tendance-cuir.fr/pub/Photos_produits/Capiton/Lisse/simili-cuir-capiton-lisse-cognac.jpg"
       },
       {
         name: "Chocolat",
         overlay: "bg-amber-950",
-        image: "https://images.unsplash.com/photo-1614252234498-f39e8837c077?auto=format&fit=crop&q=80"
+        image: "https://cdn3.tissus-price.com/266401-large_default/coupon-40cm-simili-cuir-dolaro-chocolat.jpg"
       }
     ]
   },
-  "Cuir Cordovan": {
+  "Cuir Chêvre": {
     description: "Le plus noble des cuirs, brillance et durabilité exceptionnelles",
     price: 300,
     colors: [
       {
         name: "Noir",
         overlay: "bg-black",
-        image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80"
+        image: "https://www.cuirnaturel.com/5635/cuir-de-chevre-grain-naturel-noir.jpg"
       },
       {
-        name: "Bordeaux",
-        overlay: "bg-red-900",
-        image: "https://images.unsplash.com/photo-1614252234498-f39e8837c077?auto=format&fit=crop&q=80"
+        name: "Rouge",
+        overlay: "bg-red-600",
+        image: "https://www.cuirnaturel.com/8804/cuir-de-chevre-liege-rouge-rose.jpg"
       },
       {
         name: "Acajou",
-        overlay: "bg-amber-800",
-        image: "https://images.unsplash.com/photo-1478186014527-87b7f4fe0930?auto=format&fit=crop&q=80"
+        overlay: "bg-red-900",
+        image: "https://www.cuirnaturel.com/1520-large_default/cuir-de-collet-tannage-vegetal-brun-acajou.webp"
       }
     ]
   }
@@ -595,7 +595,7 @@ const Shoes = () => {
     {
       name: "Mocassin",
       price: "795€",
-      image: "https://eu.jmweston.com/cdn/shop/products/11411011801FF_2000x2000_crop_center@2x.png?v=1629153927"
+      image: "https://eu.jmweston.com/cdn/shop/products/11411011801FF_1800x1800_crop_center.png?v=1629153927"
     }
   ];
 
